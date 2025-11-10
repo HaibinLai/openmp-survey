@@ -1,0 +1,655 @@
+Sequence format is Pearson
+Multiple Pairwise Alignment (100 sequences)
+Start aligning  completed!
+
+Program             = Protein alignment (For version)
+Parameters          = run/../run/../inputs/alignment/prot.100.aa
+Model               = OpenMP (using tasks)
+Embedded cut-off    = none
+# of Threads        = 52
+Verification        = Not requested
+Time Program        = 0.170284 seconds
+Execution Date      = 2025/11/10;08:33
+Execution Message   = 
+Architecture        = Linux-x86_64;104
+Load Avg [1:5:15]   = 1.56;1.22;1.07
+Compilation Date    = 2025/11/10;16:33
+Compilation Message = 
+Compiler            = gcc -fopenmp
+Compiler Flags      = -c -I../../..//common -O3   -I.
+Linker              = gcc -fopenmp
+Linker Flags        = -O3   -lm
+Sequence format is Pearson
+Multiple Pairwise Alignment (100 sequences)
+Start aligning  completed!
+
+Program             = Protein alignment (For version)
+Parameters          = run/../run/../inputs/alignment/prot.100.aa
+Model               = OpenMP (using tied tasks)
+Embedded cut-off    = none
+# of Threads        = 52
+Verification        = Not requested
+Time Program        = 0.168993 seconds
+Execution Date      = 2025/11/10;08:33
+Execution Message   = 
+Architecture        = Linux-x86_64;104
+Load Avg [1:5:15]   = 1.56;1.22;1.07
+Compilation Date    = 2025/11/10;16:33
+Compilation Message = 
+Compiler            = gcc -fopenmp
+Compiler Flags      = -c -I../../..//common -O3   -DFORCE_TIED_TASKS -I.
+Linker              = gcc -fopenmp
+Linker Flags        = -O3   -lm
+Sequence format is Pearson
+Multiple Pairwise Alignment (100 sequences)
+Start aligning  completed!
+
+Program             = Protein alignment
+Parameters          = run/../run/../inputs/alignment/prot.100.aa
+Model               = Serial
+Embedded cut-off    = none
+# of Threads        = 1
+Verification        = Not requested
+Time Program        = 7.474539 seconds
+Execution Date      = 2025/11/10;08:33
+Execution Message   = 
+Architecture        = Linux-x86_64;104
+Load Avg [1:5:15]   = 1.60;1.24;1.07
+Compilation Date    = 2025/11/10;16:33
+Compilation Message = 
+Compiler            = gcc
+Compiler Flags      = -c -I../..//common -O3    -I.
+Linker              = gcc
+Linker Flags        = -O3   -lm
+Sequence format is Pearson
+Multiple Pairwise Alignment (100 sequences)
+Start aligning  completed!
+
+Program             = Protein alignment (Single version)
+Parameters          = run/../run/../inputs/alignment/prot.100.aa
+Model               = OpenMP (using tasks)
+Embedded cut-off    = none
+# of Threads        = 52
+Verification        = Not requested
+Time Program        = 0.163657 seconds
+Execution Date      = 2025/11/10;08:33
+Execution Message   = 
+Architecture        = Linux-x86_64;104
+Load Avg [1:5:15]   = 1.60;1.24;1.07
+Compilation Date    = 2025/11/10;16:33
+Compilation Message = 
+Compiler            = gcc -fopenmp
+Compiler Flags      = -c -I../../..//common -O3   -I.
+Linker              = gcc -fopenmp
+Linker Flags        = -O3   -lm
+Sequence format is Pearson
+Multiple Pairwise Alignment (100 sequences)
+Start aligning  completed!
+
+Program             = Protein alignment (Single version)
+Parameters          = run/../run/../inputs/alignment/prot.100.aa
+Model               = OpenMP (using tied tasks)
+Embedded cut-off    = none
+# of Threads        = 52
+Verification        = Not requested
+Time Program        = 0.153105 seconds
+Execution Date      = 2025/11/10;08:33
+Execution Message   = 
+Architecture        = Linux-x86_64;104
+Load Avg [1:5:15]   = 1.60;1.24;1.07
+Compilation Date    = 2025/11/10;16:33
+Compilation Message = 
+Compiler            = gcc -fopenmp
+Compiler Flags      = -c -I../../..//common -O3   -DFORCE_TIED_TASKS -I.
+Linker              = gcc -fopenmp
+Linker Flags        = -O3   -lm
+Computing coefficients  completed!
+Computing FFT  completed!
+
+Program             = FFT
+Parameters          = Size=33554432
+Model               = OpenMP (using tasks)
+Embedded cut-off    = none
+# of Threads        = 52
+Verification        = Not requested
+Time Program        = 6.681450 seconds
+Execution Date      = 2025/11/10;08:33
+Execution Message   = 
+Architecture        = Linux-x86_64;104
+Load Avg [1:5:15]   = 5.73;2.11;1.36
+Compilation Date    = 2025/11/10;16:33
+Compilation Message = 
+Compiler            = gcc -fopenmp
+Compiler Flags      = -c -I../..//common -O3   -I.
+Linker              = gcc -fopenmp
+Linker Flags        = -O3   -lm
+Computing coefficients  completed!
+Computing FFT  completed!
+
+Program             = FFT
+Parameters          = Size=33554432
+Model               = OpenMP (using tied tasks)
+Embedded cut-off    = none
+# of Threads        = 52
+Verification        = Not requested
+Time Program        = 7.005543 seconds
+Execution Date      = 2025/11/10;08:34
+Execution Message   = 
+Architecture        = Linux-x86_64;104
+Load Avg [1:5:15]   = 9.28;2.90;1.62
+Compilation Date    = 2025/11/10;16:33
+Compilation Message = 
+Compiler            = gcc -fopenmp
+Compiler Flags      = -c -I../..//common -O3   -DFORCE_TIED_TASKS -I.
+Linker              = gcc -fopenmp
+Linker Flags        = -O3   -lm
+Computing coefficients  completed!
+Computing FFT  completed!
+
+Program             = FFT
+Parameters          = Size=33554432
+Model               = Serial
+Embedded cut-off    = none
+# of Threads        = 1
+Verification        = Not requested
+Time Program        = 4.147225 seconds
+Execution Date      = 2025/11/10;08:34
+Execution Message   = 
+Architecture        = Linux-x86_64;104
+Load Avg [1:5:15]   = 8.69;2.89;1.62
+Compilation Date    = 2025/11/10;16:33
+Compilation Message = 
+Compiler            = gcc
+Compiler Flags      = -c -I../..//common -O3    -I.
+Linker              = gcc
+Linker Flags        = -O3   -lm
+Fibonacci result for 20 is 6765
+
+Program             = Fibonacci
+Parameters          = N=20
+Model               = OpenMP (using tasks)
+Embedded cut-off    = none
+# of Threads        = 52
+Verification        = Not requested
+Time Program        = 0.062790 seconds
+Execution Date      = 2025/11/10;08:34
+Execution Message   = 
+Architecture        = Linux-x86_64;104
+Load Avg [1:5:15]   = 8.69;2.89;1.62
+Compilation Date    = 2025/11/10;16:33
+Compilation Message = 
+Compiler            = gcc -fopenmp
+Compiler Flags      = -c -I../..//common -O3   -I.
+Linker              = gcc -fopenmp
+Linker Flags        = -O3   
+Fibonacci result for 20 is 6765
+
+Program             = Fibonacci
+Parameters          = N=20
+Model               = OpenMP (using tasks)
+Embedded cut-off    = pragma-if (10)
+# of Threads        = 52
+Verification        = Not requested
+Time Program        = 0.015605 seconds
+Execution Date      = 2025/11/10;08:34
+Execution Message   = 
+Architecture        = Linux-x86_64;104
+Load Avg [1:5:15]   = 8.69;2.89;1.62
+Compilation Date    = 2025/11/10;16:33
+Compilation Message = 
+Compiler            = gcc -fopenmp
+Compiler Flags      = -c -I../..//common -O3   -DIF_CUTOFF-I.
+Linker              = gcc -fopenmp
+Linker Flags        = -O3   
+Fibonacci result for 20 is 6765
+
+Program             = Fibonacci
+Parameters          = N=20
+Model               = OpenMP (using tied tasks)
+Embedded cut-off    = pragma-if (10)
+# of Threads        = 52
+Verification        = Not requested
+Time Program        = 0.014345 seconds
+Execution Date      = 2025/11/10;08:34
+Execution Message   = 
+Architecture        = Linux-x86_64;104
+Load Avg [1:5:15]   = 8.69;2.89;1.62
+Compilation Date    = 2025/11/10;16:33
+Compilation Message = 
+Compiler            = gcc -fopenmp
+Compiler Flags      = -c -I../..//common -O3   -DFORCE_TIED_TASKS -DIF_CUTOFF -I.
+Linker              = gcc -fopenmp
+Linker Flags        = -O3   
+Fibonacci result for 20 is 6765
+
+Program             = Fibonacci
+Parameters          = N=20
+Model               = OpenMP (using tasks)
+Embedded cut-off    = manual (10)
+# of Threads        = 52
+Verification        = Not requested
+Time Program        = 0.019476 seconds
+Execution Date      = 2025/11/10;08:34
+Execution Message   = 
+Architecture        = Linux-x86_64;104
+Load Avg [1:5:15]   = 8.69;2.89;1.62
+Compilation Date    = 2025/11/10;16:33
+Compilation Message = 
+Compiler            = gcc -fopenmp
+Compiler Flags      = -c -I../..//common -O3   -DMANUAL_CUTOFF -I.
+Linker              = gcc -fopenmp
+Linker Flags        = -O3   
+Fibonacci result for 20 is 6765
+
+Program             = Fibonacci
+Parameters          = N=20
+Model               = OpenMP (using tied tasks)
+Embedded cut-off    = manual (10)
+# of Threads        = 52
+Verification        = Not requested
+Time Program        = 0.015851 seconds
+Execution Date      = 2025/11/10;08:34
+Execution Message   = 
+Architecture        = Linux-x86_64;104
+Load Avg [1:5:15]   = 8.69;2.89;1.62
+Compilation Date    = 2025/11/10;16:33
+Compilation Message = 
+Compiler            = gcc -fopenmp
+Compiler Flags      = -c -I../..//common -O3   -DFORCE_TIED_TASKS -DMANUAL_CUTOFF -I.
+Linker              = gcc -fopenmp
+Linker Flags        = -O3   
+Fibonacci result for 20 is 6765
+
+Program             = Fibonacci
+Parameters          = N=20
+Model               = OpenMP (using tied tasks)
+Embedded cut-off    = none
+# of Threads        = 52
+Verification        = Not requested
+Time Program        = 0.059543 seconds
+Execution Date      = 2025/11/10;08:34
+Execution Message   = 
+Architecture        = Linux-x86_64;104
+Load Avg [1:5:15]   = 8.69;2.89;1.62
+Compilation Date    = 2025/11/10;16:33
+Compilation Message = 
+Compiler            = gcc -fopenmp
+Compiler Flags      = -c -I../..//common -O3   -DFORCE_TIED_TASKS -I.
+Linker              = gcc -fopenmp
+Linker Flags        = -O3   
+Fibonacci result for 20 is 6765
+
+Program             = Fibonacci
+Parameters          = N=20
+Model               = Serial
+Embedded cut-off    = none
+# of Threads        = 1
+Verification        = Not requested
+Time Program        = 0.000026 seconds
+Execution Date      = 2025/11/10;08:34
+Execution Message   = 
+Architecture        = Linux-x86_64;104
+Load Avg [1:5:15]   = 8.69;2.89;1.62
+Compilation Date    = 2025/11/10;16:33
+Compilation Message = 
+Compiler            = gcc
+Compiler Flags      = -c -I../..//common -O3    -I.
+Linker              = gcc
+Linker Flags        = -O3   
+Computing floorplan  completed!
+Minimum area = 896
+
+AAAAAAAAAA                      
+AAAAAAAAAA                      
+AAAAAAAAAA                      
+BBBBBBBBCCCCCCCCCCCC            
+BBBBBBBBCCCCCCCCCCCC            
+BBBBBBBBCCCCCCCCCCCC            
+   EEEE CCCCCCCCCCCC            
+   EEEE CCCCCCCCCCCC            
+   EEEE        DDDDDDDD         
+   EEEE        DDDDDDDD         
+   EEEE        DDDDDDDD         
+   EEEE        HHHHIIIJJJJJJ    
+   EEEE        HHHHIIIJJJJJJ    
+   EEEE        HHHHIIIJJJJJJ    
+   EEEE     LLLLMMMMMMJJJJJJ    
+   EEEE     LLLLMMMMMMJJJJJJ    
+ FFFGGGGGGGGLLLLMMMMMMNNNNNNNNN 
+ FFFGGGGGGGGLLLLMMMMMMNNNNNNNNN 
+ FFFGGGGGGGGLLLLMMMMMMNNNNNNNNN 
+KKKKGGGGGGGGLLLLMMMMMM    PPPPPP
+KKKKOOOOOOOOOOOOOOOOOOOOOOPPPPPP
+KKKKOOOOOOOOOOOOOOOOOOOOOOPPPPPP
+KKKKOOOOOOOOOOOOOOOOOOOOOOPPPPPP
+QQQQQQQQRRRRRRSSSSSSSSTTTTT     
+QQQQQQQQRRRRRRSSSSSSSSTTTTT     
+QQQQQQQQ      SSSSSSSSTTTTT     
+QQQQQQQQ              TTTTT     
+QQQQQQQQ              TTTTT     
+
+Program             = Floorplan
+Parameters          = run/../run/../inputs/floorplan/input.20
+Model               = OpenMP (using tasks)
+Embedded cut-off    = none
+# of Threads        = 52
+Verification        = Not requested
+Time Program        = 142.339572 seconds
+Nodes               = 67015824.00
+Nodes/Sec           = 470816.53
+Execution Date      = 2025/11/10;08:34
+Execution Message   = 
+Architecture        = Linux-x86_64;104
+Load Avg [1:5:15]   = 36.51;17.58;7.39
+Compilation Date    = 2025/11/10;16:33
+Compilation Message = 
+Compiler            = gcc -fopenmp
+Compiler Flags      = -c -I../..//common -O3   -I.
+Linker              = gcc -fopenmp
+Linker Flags        = -O3   
+Computing floorplan  completed!
+Minimum area = 896
+
+AAAAAAAAAA                      
+AAAAAAAAAA                      
+AAAAAAAAAA                      
+BBBBBBBBCCCCCCCCCCCC            
+BBBBBBBBCCCCCCCCCCCC            
+BBBBBBBBCCCCCCCCCCCC            
+    EEEECCCCCCCCCCCC            
+    EEEECCCCCCCCCCCC            
+    EEEE        DDDDDDDD        
+    EEEE        DDDDDDDD        
+    EEEE        DDDDDDDD        
+    EEEE      HHHHHHIIIJJJJJJ   
+    EEEE      HHHHHHIIIJJJJJJ   
+    EEEE     LLLL   IIIJJJJJJ   
+    EEEE     LLLLMMMMMMJJJJJJ   
+    EEEE     LLLLMMMMMMJJJJJJ   
+  FFFGGGGGGGGLLLLMMMMMMNNNNNNNNN
+  FFFGGGGGGGGLLLLMMMMMMNNNNNNNNN
+  FFFGGGGGGGGLLLLMMMMMMNNNNNNNNN
+KKKK GGGGGGGG    MMMMMM   PPPPPP
+KKKKOOOOOOOOOOOOOOOOOOOOOOPPPPPP
+KKKKOOOOOOOOOOOOOOOOOOOOOOPPPPPP
+KKKKOOOOOOOOOOOOOOOOOOOOOOPPPPPP
+QQQQQQQQQQRRRRRRSSSSSSSSTTTTT   
+QQQQQQQQQQRRRRRRSSSSSSSSTTTTT   
+QQQQQQQQQQ      SSSSSSSSTTTTT   
+QQQQQQQQQQ              TTTTT   
+                        TTTTT   
+
+Program             = Floorplan
+Parameters          = run/../run/../inputs/floorplan/input.20
+Model               = OpenMP (using tasks)
+Embedded cut-off    = pragma-if (5)
+# of Threads        = 52
+Verification        = Not requested
+Time Program        = 0.220011 seconds
+Nodes               = 66887720.00
+Nodes/Sec           = 304019889.91
+Execution Date      = 2025/11/10;08:36
+Execution Message   = 
+Architecture        = Linux-x86_64;104
+Load Avg [1:5:15]   = 36.51;17.58;7.39
+Compilation Date    = 2025/11/10;16:33
+Compilation Message = 
+Compiler            = gcc -fopenmp
+Compiler Flags      = -c -I../..//common -O3   -DIF_CUTOFF-I.
+Linker              = gcc -fopenmp
+Linker Flags        = -O3   
+Computing floorplan  completed!
+Minimum area = 896
+
+AAAAAAAAAA                      
+AAAAAAAAAA                      
+AAAAAAAAAA                      
+BBBBBBBBCCCCCCCCCCCC            
+BBBBBBBBCCCCCCCCCCCC            
+BBBBBBBBCCCCCCCCCCCC            
+    EEEECCCCCCCCCCCC            
+    EEEECCCCCCCCCCCC            
+    EEEE        DDDDDDDD        
+    EEEE        DDDDDDDD        
+    EEEE        DDDDDDDD        
+    EEEE      HHHHHHIIIJJJJJJ   
+    EEEE      HHHHHHIIIJJJJJJ   
+    EEEE     LLLL   IIIJJJJJJ   
+    EEEE     LLLLMMMMMMJJJJJJ   
+    EEEE     LLLLMMMMMMJJJJJJ   
+  FFFGGGGGGGGLLLLMMMMMMNNNNNNNNN
+  FFFGGGGGGGGLLLLMMMMMMNNNNNNNNN
+  FFFGGGGGGGGLLLLMMMMMMNNNNNNNNN
+KKKK GGGGGGGG    MMMMMM   PPPPPP
+KKKKOOOOOOOOOOOOOOOOOOOOOOPPPPPP
+KKKKOOOOOOOOOOOOOOOOOOOOOOPPPPPP
+KKKKOOOOOOOOOOOOOOOOOOOOOOPPPPPP
+QQQQQQQQQQRRRRRRSSSSSSSSTTTTT   
+QQQQQQQQQQRRRRRRSSSSSSSSTTTTT   
+QQQQQQQQQQ      SSSSSSSSTTTTT   
+QQQQQQQQQQ              TTTTT   
+                        TTTTT   
+
+Program             = Floorplan
+Parameters          = run/../run/../inputs/floorplan/input.20
+Model               = OpenMP (using tied tasks)
+Embedded cut-off    = pragma-if (5)
+# of Threads        = 52
+Verification        = Not requested
+Time Program        = 0.232309 seconds
+Nodes               = 66887720.00
+Nodes/Sec           = 287925650.75
+Execution Date      = 2025/11/10;08:36
+Execution Message   = 
+Architecture        = Linux-x86_64;104
+Load Avg [1:5:15]   = 36.51;17.58;7.39
+Compilation Date    = 2025/11/10;16:33
+Compilation Message = 
+Compiler            = gcc -fopenmp
+Compiler Flags      = -c -I../..//common -O3   -DFORCE_TIED_TASKS -DIF_CUTOFF -I.
+Linker              = gcc -fopenmp
+Linker Flags        = -O3   
+Computing floorplan  completed!
+Minimum area = 896
+
+AAAAAAAAAA                      
+AAAAAAAAAA                      
+AAAAAAAAAA                      
+BBBBBBBBCCCCCCCCCCCC            
+BBBBBBBBCCCCCCCCCCCC            
+BBBBBBBBCCCCCCCCCCCC            
+    EEEECCCCCCCCCCCC            
+    EEEECCCCCCCCCCCC            
+    EEEE         DDDDDDDD       
+    EEEE         DDDDDDDD       
+    EEEE         DDDDDDDD       
+    EEEE      HHHHHHIIIJJJJJJ   
+    EEEE      HHHHHHIIIJJJJJJ   
+    EEEE     LLLL   IIIJJJJJJ   
+    EEEE     LLLLMMMMMMJJJJJJ   
+    EEEE     LLLLMMMMMMJJJJJJ   
+  FFFGGGGGGGGLLLLMMMMMMNNNNNNNNN
+  FFFGGGGGGGGLLLLMMMMMMNNNNNNNNN
+  FFFGGGGGGGGLLLLMMMMMMNNNNNNNNN
+KKKK GGGGGGGG    MMMMMM   PPPPPP
+KKKKOOOOOOOOOOOOOOOOOOOOOOPPPPPP
+KKKKOOOOOOOOOOOOOOOOOOOOOOPPPPPP
+KKKKOOOOOOOOOOOOOOOOOOOOOOPPPPPP
+QQQQQQQQQQRRRRRRSSSSSSSSTTTTT   
+QQQQQQQQQQRRRRRRSSSSSSSSTTTTT   
+QQQQQQQQQQ      SSSSSSSSTTTTT   
+QQQQQQQQQQ              TTTTT   
+                        TTTTT   
+
+Program             = Floorplan
+Parameters          = run/../run/../inputs/floorplan/input.20
+Model               = OpenMP (using tasks)
+Embedded cut-off    = manual (5)
+# of Threads        = 52
+Verification        = Not requested
+Time Program        = 0.141404 seconds
+Nodes               = 66887720.00
+Nodes/Sec           = 473025656.98
+Execution Date      = 2025/11/10;08:36
+Execution Message   = 
+Architecture        = Linux-x86_64;104
+Load Avg [1:5:15]   = 36.51;17.58;7.39
+Compilation Date    = 2025/11/10;16:33
+Compilation Message = 
+Compiler            = gcc -fopenmp
+Compiler Flags      = -c -I../..//common -O3   -DMANUAL_CUTOFF -I.
+Linker              = gcc -fopenmp
+Linker Flags        = -O3   
+Computing floorplan  completed!
+Minimum area = 896
+
+AAAAAAAAAA                      
+AAAAAAAAAA                      
+AAAAAAAAAA                      
+BBBBBBBBCCCCCCCCCCCC            
+BBBBBBBBCCCCCCCCCCCC            
+BBBBBBBBCCCCCCCCCCCC            
+    EEEECCCCCCCCCCCC            
+    EEEECCCCCCCCCCCC            
+    EEEE        DDDDDDDD        
+    EEEE        DDDDDDDD        
+    EEEE        DDDDDDDD        
+    EEEE      HHHHHHIIIJJJJJJ   
+    EEEE      HHHHHHIIIJJJJJJ   
+    EEEE     LLLL   IIIJJJJJJ   
+    EEEE     LLLLMMMMMMJJJJJJ   
+    EEEE     LLLLMMMMMMJJJJJJ   
+  FFFGGGGGGGGLLLLMMMMMMNNNNNNNNN
+  FFFGGGGGGGGLLLLMMMMMMNNNNNNNNN
+  FFFGGGGGGGGLLLLMMMMMMNNNNNNNNN
+KKKK GGGGGGGG    MMMMMM   PPPPPP
+KKKKOOOOOOOOOOOOOOOOOOOOOOPPPPPP
+KKKKOOOOOOOOOOOOOOOOOOOOOOPPPPPP
+KKKKOOOOOOOOOOOOOOOOOOOOOOPPPPPP
+QQQQQQQQQQRRRRRRSSSSSSSSTTTTT   
+QQQQQQQQQQRRRRRRSSSSSSSSTTTTT   
+QQQQQQQQQQ      SSSSSSSSTTTTT   
+QQQQQQQQQQ              TTTTT   
+                        TTTTT   
+
+Program             = Floorplan
+Parameters          = run/../run/../inputs/floorplan/input.20
+Model               = OpenMP (using tied tasks)
+Embedded cut-off    = manual (5)
+# of Threads        = 52
+Verification        = Not requested
+Time Program        = 0.155311 seconds
+Nodes               = 66974040.00
+Nodes/Sec           = 431225347.85
+Execution Date      = 2025/11/10;08:36
+Execution Message   = 
+Architecture        = Linux-x86_64;104
+Load Avg [1:5:15]   = 36.51;17.58;7.39
+Compilation Date    = 2025/11/10;16:33
+Compilation Message = 
+Compiler            = gcc -fopenmp
+Compiler Flags      = -c -I../..//common -O3   -DFORCE_TIED_TASKS -DMANUAL_CUTOFF -I.
+Linker              = gcc -fopenmp
+Linker Flags        = -O3   
+Computing floorplan  completed!
+Minimum area = 896
+
+AAAAAAAAAA                      
+AAAAAAAAAA                      
+AAAAAAAAAA                      
+BBBBBBBBCCCCCCCCCCCC            
+BBBBBBBBCCCCCCCCCCCC            
+BBBBBBBBCCCCCCCCCCCC            
+    EEEECCCCCCCCCCCC            
+    EEEECCCCCCCCCCCC            
+    EEEE        DDDDDDDD        
+    EEEE        DDDDDDDD        
+    EEEE        DDDDDDDD        
+    EEEE        HHHHIIIJJJJJJ   
+    EEEE        HHHHIIIJJJJJJ   
+    EEEE        HHHHIIIJJJJJJ   
+    EEEE     LLLLMMMMMMJJJJJJ   
+    EEEE     LLLLMMMMMMJJJJJJ   
+  FFFGGGGGGGGLLLLMMMMMMNNNNNNNNN
+  FFFGGGGGGGGLLLLMMMMMMNNNNNNNNN
+  FFFGGGGGGGGLLLLMMMMMMNNNNNNNNN
+KKKK GGGGGGGGLLLLMMMMMM   PPPPPP
+KKKKOOOOOOOOOOOOOOOOOOOOOOPPPPPP
+KKKKOOOOOOOOOOOOOOOOOOOOOOPPPPPP
+KKKKOOOOOOOOOOOOOOOOOOOOOOPPPPPP
+    QQQQQQQQQQRRRRSSSSSSSSTTTTT 
+    QQQQQQQQQQRRRRSSSSSSSSTTTTT 
+    QQQQQQQQQQRRRRSSSSSSSSTTTTT 
+    QQQQQQQQQQ            TTTTT 
+                          TTTTT 
+
+Program             = Floorplan
+Parameters          = run/../run/../inputs/floorplan/input.20
+Model               = OpenMP (using tied tasks)
+Embedded cut-off    = none
+# of Threads        = 52
+Verification        = Not requested
+Time Program        = 127.325437 seconds
+Nodes               = 67316576.00
+Nodes/Sec           = 528697.00
+Execution Date      = 2025/11/10;08:36
+Execution Message   = 
+Architecture        = Linux-x86_64;104
+Load Avg [1:5:15]   = 39.77;25.75;11.71
+Compilation Date    = 2025/11/10;16:33
+Compilation Message = 
+Compiler            = gcc -fopenmp
+Compiler Flags      = -c -I../..//common -O3   -DFORCE_TIED_TASKS -I.
+Linker              = gcc -fopenmp
+Linker Flags        = -O3   
+Computing floorplan  completed!
+Minimum area = 896
+
+AAAAAAAAAA                      
+AAAAAAAAAA                      
+AAAAAAAAAA                      
+BBBBBBBBCCCCCCCCCCCC            
+BBBBBBBBCCCCCCCCCCCC            
+BBBBBBBBCCCCCCCCCCCC            
+EEEEE   CCCCCCCCCCCC            
+EEEEE   CCCCCCCCCCCC            
+EEEEE          DDDDDDDD         
+EEEEE          DDDDDDDD         
+EEEEE          DDDDDDDD         
+EEEEE        HHHHHHIIIJJJJJJ    
+EEEEE        HHHHHHIIIJJJJJJ    
+EEEEE       LLLL   IIIJJJJJJ    
+ FFFGGGGGGGGLLLLMMMMMMJJJJJJ    
+ FFFGGGGGGGGLLLLMMMMMMJJJJJJ    
+ FFFGGGGGGGGLLLLMMMMMMNNNNNNNNN 
+KKKKGGGGGGGGLLLLMMMMMMNNNNNNNNN 
+KKKK        LLLLMMMMMMNNNNNNNNN 
+KKKK            MMMMMM    PPPPPP
+KKKKOOOOOOOOOOOOOOOOOOOOOOPPPPPP
+    OOOOOOOOOOOOOOOOOOOOOOPPPPPP
+    OOOOOOOOOOOOOOOOOOOOOOPPPPPP
+QQQQQQQQQQRRRRRRSSSSSSSSTTTTT   
+QQQQQQQQQQRRRRRRSSSSSSSSTTTTT   
+QQQQQQQQQQ      SSSSSSSSTTTTT   
+QQQQQQQQQQ              TTTTT   
+                        TTTTT   
+
+Program             = Floorplan
+Parameters          = run/../run/../inputs/floorplan/input.20
+Model               = Serial
+Embedded cut-off    = none
+# of Threads        = 1
+Verification        = Not requested
+Time Program        = 3.717997 seconds
+Nodes               = 66887664.00
+Nodes/Sec           = 17990241.52
+Execution Date      = 2025/11/10;08:38
+Execution Message   = 
+Architecture        = Linux-x86_64;104
+Load Avg [1:5:15]   = 36.75;25.36;11.66
+Compilation Date    = 2025/11/10;16:33
+Compilation Message = 
+Compiler            = gcc
+Compiler Flags      = -c -I../..//common -O3    -I.
+Linker              = gcc
+Linker Flags        = -O3   
