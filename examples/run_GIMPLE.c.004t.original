@@ -1,0 +1,32 @@
+
+;; Function add (null)
+;; enabled by -tree-original
+
+
+{
+  int arr[4];
+
+    int arr[4];
+  #pragma omp parallel num_threads(4)
+    {
+      {
+        {
+          int tid = omp_get_thread_num ();
+
+                    int tid = omp_get_thread_num ();
+          arr[tid] = a + b;
+        }
+      }
+    }
+}
+
+
+;; Function main (null)
+;; enabled by -tree-original
+
+
+{
+  return add (1, 2);
+}
+return 0;
+

@@ -1,0 +1,78 @@
+
+;; Function add (add, funcdef_no=0, decl_uid=2237, cgraph_uid=1, symbol_order=0)
+
+
+OMP region tree
+
+bb 2: gimple_omp_parallel
+bb 3: GIMPLE_OMP_RETURN
+
+Added new low gimple function add._omp_fn.0 to callgraph
+Introduced new external node (omp_get_thread_num/3).
+
+;; Function add._omp_fn.0 (add._omp_fn.0, funcdef_no=2, decl_uid=2246, cgraph_uid=3, symbol_order=2)
+
+add._omp_fn.0 (struct .omp_data_s.0 & restrict .omp_data_i)
+{
+  int arr[4] [value-expr: *.omp_data_i->arr];
+  int[4] * D.2261;
+  int D.2260;
+  int tid;
+  int a;
+  int b;
+
+  <bb 5> :
+
+  <bb 3> :
+  b = .omp_data_i->b;
+  a = .omp_data_i->a;
+  tid = omp_get_thread_num ();
+  D.2260 = a + b;
+  D.2261 = .omp_data_i->arr;
+  *D.2261[tid] = D.2260;
+  return;
+
+}
+
+
+
+;; Function add (add, funcdef_no=0, decl_uid=2237, cgraph_uid=1, symbol_order=0)
+
+Merging blocks 2 and 6
+Merging blocks 2 and 4
+add (int a, int b)
+{
+  int tid;
+  int arr[4];
+  struct .omp_data_s.0 .omp_data_o.1;
+  int[4] * D.2255;
+
+  <bb 2> :
+  .omp_data_o.1.b = b;
+  .omp_data_o.1.a = a;
+  .omp_data_o.1.arr = &arr;
+  __builtin_GOMP_parallel (add._omp_fn.0, &.omp_data_o.1, 4, 0);
+  .omp_data_o.1 = {CLOBBER};
+  arr = {CLOBBER};
+  return;
+
+}
+
+
+
+;; Function main (main, funcdef_no=1, decl_uid=2241, cgraph_uid=2, symbol_order=1)
+
+main ()
+{
+  int D.2263;
+
+  <bb 2> :
+  D.2263 = add (1, 2);
+
+  <bb 3> :
+<L0>:
+  return D.2263;
+
+}
+
+

@@ -1,0 +1,44 @@
+
+;; Function add (add, funcdef_no=0, decl_uid=2237, cgraph_uid=1, symbol_order=0)
+
+add (int a, int b)
+{
+  int tid;
+  int arr[4];
+  struct .omp_data_s.0 .omp_data_o.1;
+  int[4] * D.2255;
+
+  .omp_data_o.1.b = b;
+  .omp_data_o.1.a = a;
+  .omp_data_o.1.arr = &arr;
+  #pragma omp parallel num_threads(4) shared(arr) firstprivate(b) firstprivate(a) [child fn: add._omp_fn.0 (.omp_data_o.1)]
+  .omp_data_i = (struct .omp_data_s.0 & restrict) &.omp_data_o.1;
+  b = .omp_data_i->b;
+  a = .omp_data_i->a;
+  tid = omp_get_thread_num ();
+  D.2244 = a + b;
+  D.2255 = .omp_data_i->arr;
+  *D.2255[tid] = D.2244;
+  #pragma omp return
+  .omp_data_o.1 = {CLOBBER};
+  arr = {CLOBBER};
+  return;
+}
+
+
+
+;; Function main (main, funcdef_no=1, decl_uid=2241, cgraph_uid=2, symbol_order=1)
+
+main ()
+{
+  int D.2263;
+
+  D.2263 = add (1, 2);
+  goto <D.2264>;
+  D.2263 = 0;
+  goto <D.2264>;
+  <D.2264>:
+  return D.2263;
+}
+
+

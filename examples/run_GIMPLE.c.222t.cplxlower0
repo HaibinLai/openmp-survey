@@ -1,0 +1,68 @@
+
+;; Function add (add, funcdef_no=0, decl_uid=2237, cgraph_uid=1, symbol_order=0)
+
+add (int a, int b)
+{
+  int tid;
+  int arr[4];
+  struct .omp_data_s.0 .omp_data_o.1;
+  int[4] * D.2255;
+
+  <bb 2> :
+  .omp_data_o.1.b = b_2(D);
+  .omp_data_o.1.a = a_4(D);
+  .omp_data_o.1.arr = &arr;
+  __builtin_GOMP_parallel (add._omp_fn.0, &.omp_data_o.1, 4, 0);
+  .omp_data_o.1 ={v} {CLOBBER};
+  arr ={v} {CLOBBER};
+  return;
+
+}
+
+
+
+;; Function main (main, funcdef_no=1, decl_uid=2241, cgraph_uid=2, symbol_order=1)
+
+main ()
+{
+  int D.2263;
+  int _3;
+
+  <bb 2> :
+  _3 = add (1, 2);
+
+  <bb 3> :
+<L0>:
+  return _3;
+
+}
+
+
+
+;; Function add._omp_fn.0 (add._omp_fn.0, funcdef_no=2, decl_uid=2246, cgraph_uid=3, symbol_order=2)
+
+add._omp_fn.0 (struct .omp_data_s.0 & restrict .omp_data_i)
+{
+  int arr[4] [value-expr: *.omp_data_i->arr];
+  int[4] * D.2261;
+  int D.2260;
+  int tid;
+  int a;
+  int b;
+  int _7;
+  int[4] * _8;
+
+  <bb 5> :
+
+  <bb 3> :
+  b_3 = .omp_data_i_2(D)->b;
+  a_4 = .omp_data_i_2(D)->a;
+  tid_6 = omp_get_thread_num ();
+  _7 = a_4 + b_3;
+  _8 = .omp_data_i_2(D)->arr;
+  *_8[tid_6] = _7;
+  return;
+
+}
+
+

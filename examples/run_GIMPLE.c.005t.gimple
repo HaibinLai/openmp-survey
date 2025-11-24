@@ -1,0 +1,39 @@
+add (int a, int b)
+{
+  int arr[4];
+
+  try
+    {
+      #pragma omp parallel num_threads(4) shared(arr) shared(b) shared(a)
+        {
+          int D.2244;
+
+          {
+            int tid;
+
+            tid = omp_get_thread_num ();
+            D.2244 = a + b;
+            arr[tid] = D.2244;
+          }
+        }
+    }
+  finally
+    {
+      arr = {CLOBBER};
+    }
+}
+
+
+main ()
+{
+  int D.2263;
+
+  {
+    D.2263 = add (1, 2);
+    return D.2263;
+  }
+  D.2263 = 0;
+  return D.2263;
+}
+
+
